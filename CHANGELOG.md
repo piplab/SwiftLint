@@ -45,6 +45,10 @@
 * Fix parsing of SwiftLint commands containing a URL in their trailing comment.  
   [Sven Münnich](https://github.com/svenmuennich)
 
+* Fix `file_length` rule misidentifying non-whitespace lines without any syntax
+  tokens as whitespace-only lines.  
+  [Keith Smiley](https://github.com/keith)
+
 ## 0.38.0: Toroidal Agitation
 
 #### Breaking
